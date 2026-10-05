@@ -54,7 +54,6 @@ data/processed/         branches.csv, safia_network.csv, store_attributes.csv,
                         osm/ (24 parquet layers + tashkent_city.geojson)
 data/raw/               WorldPop population, VIIRS night lights, 6 GHSL built-volume tiles
 environment.yml         conda environment (name: safia)
-Safia_case_study_writeup.pdf / .docx   write-up
 ```
 
 ## Data sources
