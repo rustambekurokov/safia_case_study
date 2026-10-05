@@ -1,6 +1,6 @@
 # Safia location sales index
 
-Predicts a 1-100 sales index for a proposed Safia location from its surroundings (OpenStreetMap, population, built volume, night lights). Method and results are in `Safia_case_study_writeup.pdf` (also `.docx`).
+Predicts a 1-100 sales index for a proposed Safia location from its surroundings (OpenStreetMap, population, built volume, night lights).
 
 ## Setup
 ```
