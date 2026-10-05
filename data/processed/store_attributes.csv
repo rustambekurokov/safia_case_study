@@ -1,0 +1,166 @@
+code,name,open_24_7,hours_raw,age_months,age_censored,first_seen,match_method,notes
+W035,Мега,1,Mo-Su 00:00-23:59,96.7,0,2018-08-12,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W025,Зенит,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W016,МедГор,1,Mo-Su 00:00-23:59,67.5,1,2021-01-15,coord150_name_or_merge_note,"hours: 00:00-23:59 read as 24 h | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W026,Крестик,1,Mo-Su 00:00-23:59,41.3,0,2023-03-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W037,Паркентская,1,Mo-Su 00:00-23:59,67.5,1,2021-01-15,coord150_name_or_merge_note,"hours: 00:00-23:59 read as 24 h | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W047,Чирчик,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W072,Бухара,0,Mo-Su 08:00-24:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W083,Водник,1,Mo-Su 00:00-23:59,46.9,0,2022-10-05,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W099,Сайрам,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W101,ТТЗ,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W012,Ганга,1,Mo-Su 00:00-23:59,67.5,1,2021-01-15,coord150_name_or_merge_note,"hours: 00:00-23:59 read as 24 h | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W183,Грандмир,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W185,Бульвар,0,Mo-Su 08:00-24:00,85.8,0,2019-07-07,coord150_name_or_merge_note,
+W087,СамПИ,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W018,Садык Азимов,1,Mo-Su 00:00-23:59,41.3,0,2023-03-25,coord_audit_pair,hours: 00:00-23:59 read as 24 h
+W057,Карши,1,Mo-Su 00:00-23:59,35.2,0,2023-09-27,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W054,Алмалык,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W071,АНД Навруз,0,Mo-Su 08:00-24:00,51.3,0,2022-05-25,coord150_name_or_merge_note,first_seen row ambiguous (also within range: W220)
+W092,Янги Хаёт,0,Mo-Su 08:00-24:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W017,Ракат,0,Mo-Su 08:00-23:00,98.2,1,2018-06-27,coord150_name_or_merge_note,already in earliest usable snapshot: true age >= age_months
+W015,Кадышева,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord_audit_pair,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W128,НАМ А.Навои,0,Mo-Su 08:00-24:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W074,Фергана,,,,,,,no official-site row for this code | never seen in any snapshot or live page: age unknown
+W031,Янги Куйлюк 5,0,Mo-Su 08:00-24:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W022,Авайхон,1,Mo-Su 00:00-23:59,35.2,0,2023-09-27,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W180,УзБум,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W030,Цум,0,Mo-Su 08:00-23:00,98.2,1,2018-06-27,coord150_name_or_merge_note,already in earliest usable snapshot: true age >= age_months
+W163,АНД Узбегим,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W189,Навои,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W159,Туйтепа,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord_audit_pair,hours: 00:00-23:59 read as 24 h
+W070,Янгиюль,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W027,Луначарский,1,Mo-Su 00:00-23:59,98.2,1,2018-06-27,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h | already in earliest usable snapshot: true age >= age_months
+W139,Гулобод,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W196,Кибрай,1,Mo-Su 00:00-23:59,19.4,0,2025-01-20,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W182,Дружба,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W130,Хувайдо,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W079,Пионерская,1,Mo-Su 00:00-23:59,43.1,0,2023-01-28,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W098,Корасув,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W175,Ангрен,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W064,Тансыкбаев,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord_audit_pair,
+W190,Рисовый,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W036,Минор,0,Mo-Su 08:00-24:00,98.2,1,2018-06-27,coord150_name_or_merge_note,already in earliest usable snapshot: true age >= age_months
+W097,Компас,0,Mo-Su 08:00-22:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W214,Матонат,0,Mo-Su 08:00-23:00,2.7,0,2026-06-11,coord150_name_or_merge_note,
+W039,Шохимардон,0,Mo-Su 08:00-23:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W152,Боткина,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W073,НАМ Галаба,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W068,Файзабад,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W046,Чиланзар,,,,,,,no official-site row for this code | never seen in any snapshot or live page: age unknown
+W028,Тинчлик,1,Mo-Su 00:00-23:59,67.5,1,2021-01-15,coord150_name_or_merge_note,"hours: 00:00-23:59 read as 24 h | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W013,Гвардейская,0,Mo-Su 08:00-24:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W138,Коканд,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W023,Ахмад,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord_audit_pair,
+W154,Газалкент,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W080,Спутник,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W100,Саракулька,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W187,Термез,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W181,Эшангузар,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W161,Чирчик Юсупов,1,Mo-Su 00:00-23:59,,,2026-10-05,coord_audit_pair,"hours: 00:00-23:59 read as 24 h | only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W222,Сити Молл Фудкорт,0,Mo-Su 08:00-23:00,,,2026-10-05,audit_file_ok_twin,"values copied from W124: coord_audit says the site row is the same store (file_ok pair) but safia_network.csv lists it as W124 | only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W126,Максим Горький,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W162,Янгибазар,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W044,Мевазор,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W049,Сити Молл 1,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,"site rows: Сити Молл 3; Ташкент Сити | first_seen row ambiguous (also within range: W124,W222)"
+W034,Кукча,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W205,IT парк,0,Mo-Su 08:00-23:00,,,2026-10-05,coord150_name_or_merge_note,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W051,Ардус,0,Mo-Su 08:00-23:00,98.2,1,2018-06-27,coord150_name_or_merge_note,already in earliest usable snapshot: true age >= age_months
+W084,Глобус,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W003,Фозилтепа,0,Mo-Su 08:00-23:00,2.7,0,2026-06-11,coord_audit_pair,first_seen row ambiguous (also within range: N036)
+W173,Бочка,1,Mo-Su 00:00-23:59,23.3,0,2024-09-21,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W094,Ватан,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W032,Аккурган,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord150_name_or_merge_note,
+W151,Бекабад,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W081,Чорсу,0,Mo-Su 08:00-21:00,,,2026-10-05,coord150_name_or_merge_note,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W014,Зиёлилар,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord150_name_or_merge_note,
+W137,Вега,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W056,Карасарай,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W011,Алгоритм,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W093,Бунёдкор,0,Mo-Su 08:00-23:00,,,2026-10-05,coord150_name_or_merge_note,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W059,Кушбеги,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord150_name_or_merge_note,
+W091,Эко (Chimgan),0,Mo-Su 08:00-22:00,91.4,0,2019-01-18,coord150_name_or_merge_note,
+W075,Атлас,0,Mo-Su 08:00-23:00,43.1,0,2023-01-28,coord_audit_pair,
+W067,Уч Кахрамон,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W040,Шохсарой,0,Mo-Su 08:00-23:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W140,Аэропорт Duty Free,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first_seen row ambiguous (also within range: W198) | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W077,Камолон,0,Mo-Su 08:00-23:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W048,Шахристан,0,Mo-Su 08:00-23:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W125,Ашрафи,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W096,Изза,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W198,Бобур-МКАД,0,Mo-Su 08:00-23:00,19.4,0,2025-01-20,coord150_name_or_merge_note,first_seen row ambiguous (also within range: W140)
+W029,Урикзор,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord150_name_or_merge_note,
+W060,Малика,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord_audit_pair,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W150,Авторынок (Sergeli),0,Mo-Su 08:00-23:00,19.4,0,2025-01-20,coord150_name_or_merge_note,
+W155,Кургантепа,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W062,Нурафшон,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W177,Зангиата,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,coord150_name_or_merge_note,
+W208,Бодомзор,0,Mo-Su 08:00-23:00,2.7,0,2026-06-11,audit_file_ok_twin,values copied from N009: coord_audit says the site row is the same store (file_ok pair) but safia_network.csv lists it as N009
+W041,Аль-Хорезми,0,Mo-Su 08:00-23:00,39.2,0,2023-05-27,coord150_name_or_merge_note,
+W167,Гейдар Алиев,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W076,Жомий,0,Mo-Su 08:00-23:00,43.1,0,2023-01-28,coord150_name_or_merge_note,
+W147,Эркин,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W141,Лабзак,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W043,Жарарык,0,Mo-Su 08:00-23:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W033,Коммунизм,0,Mo-Su 08:00-23:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W201,Нукус-1,0,Mo-Su 08:00-23:00,19.4,0,2025-01-20,coord150_name_or_merge_note,
+W089,Шота Руставели,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W188,Некст,0,Mo-Su 10:00-22:00,19.4,0,2025-01-20,coord150_name_or_merge_note,
+W215,Ало,,,,,,,no official-site row for this code | never seen in any snapshot or live page: age unknown
+W078,Келес,0,Mo-Su 08:00-23:00,46.9,0,2022-10-05,coord150_name_or_merge_note,
+W038,Ташми,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,coord150_name_or_merge_note,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W127,Мехржон,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W019,Хаст-Имам,0,Mo-Su 08:00-23:00,41.3,0,2023-03-25,coord150_name_or_merge_note,
+W002,Лакокраска,0,Mo-Su 08:00-23:00,41.3,0,2023-03-25,coord_audit_pair,
+W158,Северный Вокзал,,,67.5,1,2021-01-15,,"no official-site row for this code | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+W157,Себзар,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,coord150_name_or_merge_note,
+W170,Уй бозор,0,Mo-Su 08:00-23:00,2.7,0,2026-06-11,coord_audit_pair,
+W220,АНД Мумтоз,0,Mo-Su 08:00-23:00,,,2026-10-05,coord150_name_or_merge_note,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W145,Телебашня,0,Mo-Su 08:00-23:00,19.4,0,2025-01-20,coord150_name_or_merge_note,
+W061,Нукус,0,Mo-Su 08:00-24:00,51.3,0,2022-05-25,coord150_name_or_merge_note,
+W103,Чигатой,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,coord150_name_or_merge_note,
+W122,Сергели,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,coord150_name_or_merge_note,hours: 00:00-23:59 read as 24 h
+W124,Сити Молл экс,0,Mo-Su 08:00-23:00,,,2026-10-05,coord150_name_or_merge_note,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W174,БУХ Вокзал,0,Mo-Su 12:00-30:00,2.7,0,2026-06-11,coord_audit_pair,"hours: close 30:00 = after-midnight close, 18 h/day, not 24/7"
+W219,М.Горький,0,Mo-Su 08:00-23:00,,,2026-10-05,coord_audit_pair,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+W210,Алпомиш,0,Mo-Su 08:00-23:00,6.7,0,2026-02-09,coord150_name_or_merge_note,
+W172,Заркайнар,0,Mo-Su 10:00-18:00,6.7,0,2026-02-09,coord150_name_or_merge_note,
+W211,АНД Экопарк,,,,,,,no official-site row for this code | never seen in any snapshot or live page: age unknown
+N001,S express Бузбазар,0,Mo-Su 08:00-21:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N002,S express Олтин тепа,0,Mo-Su 08:00-22:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N003,S express Янги-Сергени,0,Mo-Su 08:00-22:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N004,Алмалык Айдын,0,Mo-Su 08:00-23:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N005,Ало,0,Mo-Su 08:00-23:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N007,Атлас ТЦ (Шухрат),0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,exact_coord_new,
+N009,Бадамзар,0,Mo-Su 08:00-23:00,2.7,0,2026-06-11,exact_coord_new,
+N010,Бельтепа,0,Mo-Su 08:00-23:00,10.8,0,2025-10-08,exact_coord_new,
+N011,Бешкайрагач,0,Mo-Su 08:00-24:00,46.9,0,2022-10-05,exact_coord_new,
+N012,Бунёдкор,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,exact_coord_new,first_seen row ambiguous (also within range: N033)
+N014,Гагарин,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,exact_coord_new,
+N015,Глинка,1,Mo-Su 00:00-23:59,51.3,0,2022-05-25,exact_coord_new,hours: 00:00-23:59 read as 24 h
+N016,Гулистан,0,Mo-Su 08:00-23:00,6.7,0,2026-02-09,exact_coord_new,
+N017,Гёте,0,Mo-Su 10:00-20:00,2.7,0,2026-06-11,exact_coord_new,
+N018,Дархан,0,Mo-Su 08:00-23:00,98.2,1,2018-06-27,exact_coord_new,already in earliest usable snapshot: true age >= age_months
+N019,Джизак,1,Mo-Su 00:00-23:59,2.7,0,2026-06-11,exact_coord_new,hours: 00:00-23:59 read as 24 h
+N020,Для предзаказов 2026,0,Mo-Su 08:00-23:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N021,Домбрабад,1,Mo-Su 00:00-23:59,67.5,1,2021-01-15,exact_coord_new,"hours: 00:00-23:59 read as 24 h | first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+N022,Дрим парк,0,Mo-Su 10:00-23:00,2.7,0,2026-06-11,exact_coord_new,
+N023,Дьюти-фри,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,exact_coord_new,hours: 00:00-23:59 read as 24 h
+N024,Инха,0,Mo-Su 08:00-18:00,2.7,0,2026-06-11,exact_coord_new,
+N026,Назарбек,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,exact_coord_new,
+N027,Новза,1,Mo-Su 00:00-23:59,20.7,0,2024-12-11,exact_coord_new,hours: 00:00-23:59 read as 24 h
+N028,Океан,0,Mo-Su 08:00-24:00,20.7,0,2024-12-11,exact_coord_new,
+N029,Парус (Чиланзар),0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,exact_coord_new,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+N030,Пойтахт,0,Mo-Su 08:00-23:00,,,2026-10-05,exact_coord_new,"only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N032,Самарканд (Мироншох),1,Mo-Su 00:00-23:59,,,2026-10-05,exact_coord_new,"hours: 00:00-23:59 read as 24 h | only on live page 2026-10-05, not in last snapshot 20260611: age left empty (<= 2.7 months old at 2026-09-01)"
+N033,Сингапурский,0,Mo-Su 08:00-18:00,2.7,0,2026-06-11,exact_coord_new,first_seen row ambiguous (also within range: N012)
+N035,Ургенч,0,Mo-Su 08:00-24:00,19.4,0,2025-01-20,exact_coord_new,
+N036,Фабрика,0,Mo-Su 08:00-23:00,43.1,0,2023-01-28,exact_coord_new,first_seen row ambiguous (also within range: W003)
+N037,Фархадский,0,Mo-Su 08:00-27:00,35.2,0,2023-09-27,exact_coord_new,"hours: close 27:00 = after-midnight close, 19 h/day, not 24/7"
+N038,Фергана,0,Mo-Su 08:00-23:00,51.3,0,2022-05-25,exact_coord_new,
+N039,Феруза,0,Mo-Su 08:00-23:00,23.3,0,2024-09-21,exact_coord_new,
+N040,Хива,0,Mo-Su 08:00-24:00,6.7,0,2026-02-09,exact_coord_new,
+N041,Чинабад (High town),0,Mo-Su 08:00-24:00,19.4,0,2025-01-20,exact_coord_new,
+N042,Чиназ,0,Mo-Su 08:00-23:00,20.7,0,2024-12-11,exact_coord_new,
+N043,Чорсу,0,Mo-Su 08:00-23:00,67.5,1,2021-01-15,exact_coord_new,"first seen 2021-01-15 = first snapshot of the /restaurants list (26 stores; the older /contacts list had only 9): true age >= age_months, flagged censored"
+N044,Штаб,0,Mo-Su 08:00-23:00,35.2,0,2023-09-27,exact_coord_new,
