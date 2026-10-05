@@ -283,60 +283,16 @@ def predict_one(model, meta, lat, lon, store_code=None, force=False, hours=None,
     return out
 
 
-def format_text(r, meta):
-    """Human-readable report for one predict_one result."""
-    lines = [f"Location: lat {r['lat']:.5f}, lon {r['lon']:.5f}"]
-    site = r.get("site")
-    if site and site["mode"] == "existing":
-        lines.append(
-            f"Site: treated as existing store {site['name']} ({site['dist_m']:.0f} m away; {site['note']}); "
-            "it is excluded from the Safia network features, as in training"
-        )
-    elif site:
-        n = site["nearest"]
-        lines.append(
-            f"Site: treated as a new site ({site['note']}); nearest Safia {n['label']} is {n['dist_m']:.0f} m away "
-            "and counts as a neighbour"
-        )
+def _short_warning(w):
+    """First clause of a warning, without the long explanation."""
+    if w.startswith("extrapolation: "):
+        names = [part.split("=")[0] for part in w[len("extrapolation: "):].split("; ")]
+        return "extrapolation, outside the training range: " + ", ".join(names)
+    return w.split(" (")[0].split(". Others")[0].split(": ")[0]
+
+
+def format_text(r):
+    """One-line summary for one predict_one result (--json has the full details)."""
     if r["prediction"] is None:
-        lines.append("Predicted sales index: NOT COMPUTED")
-    else:
-        lines.append(f"Predicted sales index: {r['prediction']:.1f}  (scale 1-100; model: {meta['description']})")
-        lines.append(
-            f"{int(r['interval_level'] * 100)}% prediction interval: {r['lo']:.1f} - {r['hi']:.1f}  "
-            f"(prediction x/÷ {np.exp(r['q']):.2f}; split-conformal from out-of-fold grouped-CV residuals)"
-        )
-        lines.append("  " + r["interval_note"])
-    if r.get("store_inputs"):
-        si = r["store_inputs"]
-        lines.append(
-            "Store inputs (STORE DECISIONS / history, not location properties; the prediction is conditional on them):"
-        )
-        lines.append(
-            f"  open_24_7 = {si['open_24_7']} ({'24/7' if si['open_24_7'] else 'not 24/7'}) <- {si['sources']['open_24_7']}"
-        )
-        lines.append(f"  age_months = {si['age_months']:.1f} <- {si['sources']['age_months']}")
-    if r.get("features"):
-        lines.append("Features:")
-        cols = meta["feature_cols"] if r["prediction"] is not None else list(r["features"])
-        lines.append("  " + "; ".join(f"{c}={r['features'][c]:.6g}" for c in cols))
-    if r.get("contributions"):
-        ranked = sorted(r["contributions"].items(), key=lambda kv: -kv[1])
-        top_pos = [f"{k} {v:+.3f}" for k, v in ranked if v > 0][:4]
-        top_neg = [f"{k} {v:+.3f}" for k, v in ranked[::-1] if v < 0][:4]
-        lines.append(
-            "Ridge contributions to log sales vs the average training branch (sum of all = %+.3f):"
-            % sum(r["contributions"].values())
-        )
-        lines.append("  top positive: " + (", ".join(top_pos) or "none"))
-        lines.append("  top negative: " + (", ".join(top_neg) or "none"))
-    if r.get("similar"):
-        lines.append("Most similar training branches (standardised feature space; sales not shown):")
-        for s in r["similar"]:
-            lines.append(
-                f"  {s['code']} {s['name']} ({s['city']}): feature distance {s['feature_distance']:.2f}, "
-                f"{s['distance_km']:.1f} km away"
-            )
-    lines.append("Warnings: " + ("none" if not r["warnings"] else ""))
-    lines.extend("  - " + w for w in r["warnings"])
-    return "\n".join(lines)
+        return _short_warning(r["warnings"][0]) if r["warnings"] else "No prediction"
+    return f"Sales index: {r['prediction']:.1f}"

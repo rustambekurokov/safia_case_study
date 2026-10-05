@@ -129,7 +129,7 @@ def main():
         r = P.predict_one(model, meta, a.lat, a.lon, a.store_code, a.force, a.hours, a.age_months, a.new_site)
     except ValueError as e:
         ap.error(str(e))
-    print(json.dumps(to_jsonable(r), ensure_ascii=False, indent=1) if a.json else P.format_text(r, meta))
+    print(json.dumps(to_jsonable(r), ensure_ascii=False, indent=1) if a.json else P.format_text(r))
 
 
 if __name__ == "__main__":
